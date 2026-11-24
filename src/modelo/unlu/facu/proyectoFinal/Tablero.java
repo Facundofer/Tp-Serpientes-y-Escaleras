@@ -14,8 +14,8 @@ public class Tablero implements Observable {
     private final List<Observador> observadores;
     private final List<casilla> tableroDeJuego;
     private final Random generador = new Random();
-    int opcionCasilla;
-    casilla unaCasilla;
+    private int opcionCasilla;
+    private casilla unaCasilla;
     private Jugador ultimoJugadorMovido;
     private int ultimaTirada;
     private int ultimaCasillaProvisoria;
